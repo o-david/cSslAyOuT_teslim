@@ -247,3 +247,70 @@ section .inboxes .box1b p {
   font-weight: 400;
   font-size: 14px
 }
+#bigimg {
+  display: grid;
+  grid-template-columns: 33% 33% ;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  column-gap: 1px;
+  padding-top: 15px;
+}
+
+#bigimg .pictures .pcaption {
+  display: flex;
+}
+
+#bigimg .pictures .pcaption .pc {
+  color: rgb(116, 116);
+}
+
+#bigimg .pictures .pcaption .pc {
+  color: white;
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: rgb(61, 131, 223);
+  padding: 10px;
+  margin-left: 115px;
+}
+#end {
+  color: rgb(116, 116, 116);
+  text-align: center;
+  margin-top: 10px;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+#end+h3{
+  color: white;
+  background-color: rgb(61, 131, 223);
+  text-align: center;
+  margin: 0px 43%;
+  padding: 12px;
+  border: black 2px solid;
+  border-radius: 5px;
+}
+#footer1 {
+  color: rgb(116, 116, 116);
+  text-align: center;
+}
+
+#footer1 span a {
+  color: rgb(61, 131, 223);
+  text-decoration: none;
+}
+
+#footer1 span a:hover {
+  color: rgb(0, 0, 24);
+  text-decoration: underline;
+}
+
+#footer2 {
+  text-align: center;
+  color: rgb(116, 116, 116);
+}
+
+#footer2+p {
+  text-align: center;
+  color: rgb(116, 116, 116);
+}
