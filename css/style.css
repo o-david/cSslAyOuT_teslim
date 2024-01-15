@@ -34,12 +34,16 @@ header {
     text-align: center;
     padding-top: 15vh;
   }
+  #class h1{
+    color: #00b39b;
+  }
   #twos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 70%;
     margin: 50px auto;
     gap: 15px;
+    color: #747474;
   }
   #blocks{
     display: flex;
@@ -52,11 +56,12 @@ header {
     width: 30%;
     height: 300px;
     background-color: #00ccb1;
-    border-radius: 10px;
-    text-align: center;
+    /* border-radius: 10px; */
+    /* text-align: center; */
     font-family: "work Sans", Arial, sans-serif;;
     font-size: 21px;
     color: #ffffff;
+    padding-right: 30px;
   }
   #bloc1 img{
     text-align: left;
@@ -73,15 +78,38 @@ header {
   #block2{
     border: 1px solid black;
     width: 30%;
+    height: 300px;
     background-color: #3d83df;
     border-radius: 10px;
+    text-align: center;
+    font-family: "work Sans", Arial, sans-serif;;
+    font-size: 21px;
+    color: #ffffff
+  }
+  #block2a{
+    color: white;
+    text-decoration: underline;
+    font-family: "work sans", arial, sans-serif;
+    font-size: 21px;
+    font-weight: 300px;
+    font-style: normal;
+    padding-top: 70px;
   }
   #block3{
     border: 1px solid black;
     width: 30%;
+    height: 300px;
     background-color: #1b2734;
     border-radius: 10px;
+    text-align: center;
+    font-family: "work Sans", Arial, sans-serif;;
+    font-size: 21px;
+    color: #ffffff
   }
+  #block3 p{
+    padding-top: 10%;
+  }
+  
 #logos{
     display: flex;
     align-items: center;
@@ -273,23 +301,35 @@ section .inboxes .box1b p {
   padding: 10px;
   margin-left: 115px;
 }
-#end {
-  color: rgb(116, 116, 116);
+#section7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+  gap: 3vh;
+}
+#sec7a {
   text-align: center;
-  margin-top: 10px;
-  font-size: xx-large;
-  font-weight: lighter;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 33px;
+  color: #333333;
+}
+#sec7b {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  padding: 10px 10px;
+  color: #ffffff;
+  background-color: rgb(61, 131, 223);
+  border-radius: 3px;
 }
 
-#end+h3{
-  color: white;
-  background-color: rgb(61, 131, 223);
-  text-align: center;
-  margin: 0px 43%;
-  padding: 12px;
-  border: black 2px solid;
-  border-radius: 5px;
-}
 #footer1 {
   color: rgb(116, 116, 116);
   text-align: center;
@@ -313,4 +353,151 @@ section .inboxes .box1b p {
 #footer2+p {
   text-align: center;
   color: rgb(116, 116, 116);
+}
+#large{
+  background-color: #D0FAF4;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly ; 
+   
+}
+#largelogo{
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content:end ;
+  gap: 5vh;
+
+}
+#largelogo,#fourboxes{
+  width: 40%;   
+}
+#largelogo h1{
+  color: #00b39b;
+font-weight: 300;
+font-size: 30px;
+font-family: "Work Sans", Arial, sans-serif;
+line-height: 33px;
+}
+#largelogo p{
+  color: #747474;
+  font-size: 15px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+}
+#largelogo img{
+  width: 85%;
+}
+
+/* designing box */
+#fourboxes{
+  /* border: 1px solid black; */
+  height: 95%;
+display: flex;
+justify-content: space-between;
+}
+  
+.twobox{
+  /* border: 1px solid black; */
+  width: 44%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#firstb{
+  align-self: end;
+}
+.innerbox{
+  /* border: 1px solid black; */
+  height: 47%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5%;
+}
+.innerbox h1{
+  size: 26px;
+  color: #00b39b;
+  font-weight: 300;
+  font-family: "Work Sans", Arial, sans-serif;;
+}
+.innerbox p{
+  size: 11px;
+  font-family: "Roboto", Arial, sans-serif;;
+  color: #747474
+
+}
+.innerbox img{
+  width: 10%;
+}
+/* the design of the center text */
+
+.standard{
+  display: flex;
+  flex-direction: column;
+ align-items: center; 
+ justify-content: center;
+ padding: 10px;
+ text-align: center;
+ margin: 8%;
+ gap: 5vh;
+}
+.standard h1{
+  gap: 10%;
+}
+#section6 {
+  display: flex;
+  width: 75%;
+  margin: 50px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2vh;
+}
+.classimgs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+}
+.classimgs:hover {
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.classimgs img {
+  width: 100%;
+}
+.classimgs div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.COT {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #747474;
+}
+
+#but {
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: rgb(61, 131, 223);
+  border-radius: 3px;
 }
